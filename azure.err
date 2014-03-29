@@ -1,0 +1,32 @@
+Sat Mar 29 2014 12:09:11 GMT-0400 (Eastern Daylight Time):
+{ [Error: Command failed: Access is denied.
+]
+  stack: [Getter/Setter],
+  killed: false,
+  code: 1,
+  signal: null,
+  __frame: 
+   { name: 'launchBrowser__5',
+     line: 201,
+     file: 'C:\\Users\\davidsonr\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\util\\interaction._js',
+     prev: 
+      { name: '__1',
+        line: 37,
+        file: 'C:\\Users\\davidsonr\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\account._js',
+        prev: undefined,
+        active: false,
+        offset: 2,
+        col: 6 },
+     active: false,
+     offset: 5,
+     col: 6 },
+  rawStack: [Getter] }
+Error: Command failed: Access is denied.
+
+    at ChildProcess.exithandler (child_process.js:637:15)
+    at ChildProcess.EventEmitter.emit (events.js:98:17)
+    at maybeClose (child_process.js:743:16)
+    at Process.ChildProcess._handle.onexit (child_process.js:810:5)
+    at launchBrowser__5 (C:\Users\davidsonr\AppData\Roaming\npm\node_modules\azure-cli\lib\util\interaction._js:206:6)
+    at __1 (C:\Users\davidsonr\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\account._js:39:6)
+
