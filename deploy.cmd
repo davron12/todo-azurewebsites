@@ -99,14 +99,13 @@ IF EXIST "package.json" (
   IF !ERRORLEVEL! NEQ 0 goto error
 )
 
+popd
 
 echo 3. Execute Gulp
 IF EXIST "Gulpfile.js" (
   call .\node_modules\.bin\gulp build
   IF !ERRORLEVEL! NEQ 0 goto error
 )
-
-popd
 
 
 echo 4. KuduSync
